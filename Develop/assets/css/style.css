@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/*selectors updated to match semantic HTML tags*/
+/*selectors moved to match order of HTML file */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,6 +43,7 @@ header div ul li {
     margin-left: 25px;
 }
 
+/*selectors reworked for HTML digital-marketing-meeting img*/
 .top-banner,
 .align-top {
     width: 100%;
@@ -65,6 +68,7 @@ section {
     margin-left: 20px;
 }
 
+/*nested HTML element selectors for DRY code*/
 section div img {
     max-height: 200px;
 }
